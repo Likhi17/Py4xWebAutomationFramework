@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-driver = webdriver.Firefox()
+driver = webdriver.Edge()
 
 @pytest.fixture(scope='class')
 def setup(request):
